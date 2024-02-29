@@ -1,0 +1,327 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 5em;
+	line-height: 1.5em;
+	margin: 15px 0;
+	padding-top: 100px;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+
+
+.site-name img {
+	max-width: 75%;
+	height: auto;
+}
+
+#main-header {
+	background: #30486c;
+	color: white;
+	height: 80px;
+	justify-content: center;
+}	
+
+#main-header a {
+	color: white;
+}
+
+
+#logo-header {
+	text-align: center;
+	float: right;
+	padding-top: 15px;
+	padding-right: 25px;
+	text-decoration: none;
+}
+
+#logo-header:hover {
+	color: #0b76a6;
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+	
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
+}
+
+
+.nav{
+	margin-left: 150px;
+	text-align: left;
+	justify-content: right;
+	
+}
+
+ul, ol{
+	list-style: none;
+	background-color:#c978b1;
+	font-size: 1.5em;
+
+
+}
+
+.nav li a{
+	margin-top: 0px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 3px 10px;
+	border: solid;
+	
+}
+
+.nav li a:hover{
+	background-color: #CF8BA9;
+
+}
+
+.nav > li{
+	float: left;
+	padding: none;
+	margin-top: 35px;
+}
+
+.nav li ul{
+	text-align: left;
+	display: none;
+	position: absolute;
+	min-width: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav li:hover ul{
+	display: block;
+}
+
+.nav li:hover{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+	font-size: 0.5em;
+	background-color: #B3B3F1;
+}
+
+.nav li ul li ul{
+	right: 0px;
+	top: 0px;
+
+
+}
+
+#main-header {
+    background: #B3B3F1;
+    color: white;
+    height: 150px;          
+    width: 100%;
+    left: 0; 
+    top: 0; 
+    position: fixed; 
+}
+
+
+	
+#main-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+                
+#main-content header,#main-content .content {
+    padding: 40px;
+}
+                
+
+
+/* 
+.cabeza{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #b3b3f1;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	font-style: none;
+	align-items: center;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.serveis:hover{
+	background-color: #c978b1;
+}
+
+.inici:hover{
+	background-color: #c978b1;
+}
+
+.sobre:hover{
+	background-color: #c978b1;
+}
+
+.contacte:hover{
+	background-color: #c978b1;
+}
+.menu div{
+	padding: 10px 10px;
+	border: solid 2px;
+	height: 20px;
+	width: 150px;
+	background-color: white;
+}
+
+.logo{
+	padding-top: 15px;
+	padding-right: 15px;
+}
+ */
+
+
+
+#group{
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 200px;
+}
+
+.sec{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+.sec img{
+	width: 260px;
+	height: 260px;
+	float: center;
+	
+}
+
+.sec h2{
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+}
+
+.sec p{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1em;
+	text-align: justify;
+	width: 300px;
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+  }
+  
+  .container {
+	max-width: 1100px;
+	margin: 0 auto;
+  }
+  
+  .footer-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  
+  .footer-section {
+	flex: 1 1 30%; /* Establece el ancho de las secciones */
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: white;
+  }
+  
+  .about {
+	margin-right: 20px; /* Agrega margen derecho entre las secciones */
+  }
+  
+ 
+  .contact span {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .socials a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+  }
+  
+
+  
+  .contact-form form {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .contact-input {
+	flex: 1;
+	margin-bottom: 15px;
+	padding: 10px;
+  }
+  
+  .contact-btn {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  .footer-bottom {
+	background-color: #222;
+	padding: 10px 0;
+	text-align: center;
+  }
+  
+  .footer-bottom p {
+	font-size: 0.9rem;
+  }
+  
+  .footer-bottom a {
+	color: #fff;
+	text-decoration: underline;
+  }
+  
